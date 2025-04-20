@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import PanelLeft from "./PanelLeft";
 import PanelRight from "./PanelRight";
-import './LoginRegister.css'; // Assuming the CSS file exists
+import './LoginRegister.css'; 
 
 const AuthContainer = () => {
-  // State to toggle between sign-in and sign-up
   const [isSignUpMode, setIsSignUpMode] = useState(false);
 
-  // Event handlers to toggle between the two modes
+
   const handleSignUpClick = () => {
     setIsSignUpMode(true);
   };
@@ -57,10 +56,10 @@ const AuthContainer = () => {
       </div>
 
       <div className="panels-container">
-        {/* Left Panel (Signup CTA) */}
+        {/* Left Panel */}
         <PanelLeft onClick={handleSignUpClick} />
 
-        {/* Right Panel (Login CTA) */}
+        {/* Right Panel */}
         <PanelRight onClick={handleSignInClick} />
       </div>
     </div>
