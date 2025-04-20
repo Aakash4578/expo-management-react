@@ -1,6 +1,6 @@
 # Expo Management React App
 
-This is a React-based Expo Management System created using Vite.
+This is a React & express -based Expo Management System created using Vite.
 
 ## 🛠 Features
 
