@@ -3,7 +3,7 @@ import PanelLeft from "./PanelLeft";
 import PanelRight from "./PanelRight";
 import './LoginRegister.css'; 
 
-const AuthContainer = () => {
+const LoginRegister = () => {
   const [isSignUpMode, setIsSignUpMode] = useState(false);
 
 
@@ -66,4 +66,4 @@ const AuthContainer = () => {
   );
 };
 
-export default AuthContainer;
+export default LoginRegister;
